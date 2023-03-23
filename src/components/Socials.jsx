@@ -11,22 +11,22 @@ export default function Socials() {
             <SocialLink
                 imgSrc={githubLogo}
                 imgAlt="Github logo"
-                linkHref="https://github.com/adrian-irwin"
+                link="https://github.com/adrian-irwin"
             />
             <SocialLink
                 imgSrc={twitterLogo}
                 imgAlt="Twitter logo"
-                linkHref="https://www.twitter.com/mynameisadrian"
+                link="https://www.twitter.com/mynameisadrian"
             />
             <SocialLink
                 imgSrc={youtubeLogo}
                 imgAlt="YouTube logo"
-                linkHref="https://www.youtube.com/mrtedboy7"
+                link="https://www.youtube.com/mrtedboy7"
             />
             <SocialLink
                 imgSrc={twitchLogo}
                 imgAlt="Twitch logo"
-                linkHref="https://www.twitch.tv/airwin"
+                link="https://www.twitch.tv/airwin"
             />
         </div>
     );

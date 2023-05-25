@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function SocialLink({ imgSrc, imgAlt, link }) {
+const LinkComponent = ({ imgSrc, imgAlt, link }) => {
     return (
         <div className="flex-grow flex-shrink-0 px-3">
             <a href={link} target="_blank">
@@ -8,4 +8,6 @@ export default function SocialLink({ imgSrc, imgAlt, link }) {
             </a>
         </div>
     );
-}
+};
+
+export default LinkComponent;

@@ -1,5 +1,6 @@
 import React from "react";
 import Links from "./components/Links";
+import { Link } from "react-router-dom";
 
 export default function App() {
     return (
